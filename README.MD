@@ -9,7 +9,7 @@ https://storybook.js.org/docs/configurations/custom-webpack-config/
 ```bash
 $ npm install
 
-$ npm run sb
+$ npm run start
 ```
 
 ## 这个脚手架怎么来的？
@@ -17,13 +17,13 @@ $ npm run sb
 Step 1 : 先根据官方教程安装基础脚手架.
 
 ```bash
+# 脚手架
 $ npx -p @storybook/cli sb init --type vue
 
-// 缺省模块，手动安装
-$ cnpm i -D @storybook/addon-actions
-$ cnpm i -D @storybook/addon-links
+# 插件
+$ cnpm i -D @storybook/addons @storybook/addon-actions @storybook/addon-knobs @storybook/addon-notes
 
-// 运行
+# 运行
 $ npm run storybook
 ```
 

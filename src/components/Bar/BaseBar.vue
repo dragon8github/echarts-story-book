@@ -1,18 +1,19 @@
-import { getSize } from '@/utils/styleSheet'
-
+<docs>
+    Docs inside vue module
+</docs>
+<template>
+    <div class="BaseBar">
+        <div id="main"></div>
+    </div>
+</template>
+<script>
 export default {
-    name: 'base-bar',
-
+    name: 'BaseBar',
     data() {
         return {
-            size: getSize(),
-        };
+
+        }
     },
-
-    template: `
-     <div id="main" :style="size"></div>
-    `,
-
     mounted() {
         var myChart = echarts.init(document.getElementById('main'))
         myChart.setOption({
@@ -79,4 +80,11 @@ export default {
             }]
         })
     },
-};
+}
+</script>
+<style scoped>
+#main {
+    width: 600px;
+    height: 400px;
+}
+</style>
