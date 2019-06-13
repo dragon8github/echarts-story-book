@@ -1,0 +1,33 @@
+{
+  "name": "echarts-story-book",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "_common-tags@1.8.0@common-tags": "^1.8.0",
+    "_core-js@3.1.3@core-js": "^3.1.3",
+    "_dom-walk@0.1.1@dom-walk": "^0.1.1",
+    "_global@4.4.0@global": "^4.4.0",
+    "_min-document@2.19.0@min-document": "^2.19.0",
+    "_process@0.11.10@process": "^0.11.10",
+    "_regenerator-runtime@0.12.1@regenerator-runtime": "^0.12.1",
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@storybook/addon-actions": "^5.1.3",
+    "@storybook/addon-links": "^5.1.3",
+    "@storybook/vue": "^5.1.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-vue": "^2.0.2",
+    "vue-loader": "^15.7.0",
+    "vue-template-compiler": "^2.6.10",
+    "vuex": "^3.1.1"
+  },
+  "scripts": {
+    "sb": "start-storybook"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
