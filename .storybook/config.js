@@ -14,6 +14,8 @@ addParameters({
   options: {
   	// theme 
     theme: themes.normal,
+    // panel
+    panelPosition: 'right'
   },
   readme: {
   	// https://github.com/tuchk4/storybook-readme/tree/master/packages/storybook-readme/src/styles/prismCodeThemes

@@ -12,13 +12,10 @@ import BaseBarMD from './components/Bar/BaseBar.md'
 
 // 左侧菜单
 storiesOf('Bar', module).addParameters({
-  readme: {
-    content: BaseBar.__docs,
-    sidebar: BaseBar.__docs,
-  },
+	readme: {
+		sidebar: BaseBarMD
+	}
 }).add('BaseBar', () => ({
     components: { BaseBar },
     template: `<BaseBar />`,
-}), {
-    notes: { markdown: BaseBarMD },
-})
+}))

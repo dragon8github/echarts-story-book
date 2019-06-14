@@ -1,3 +1,5 @@
+import 'storybook-readme/register'
+
 /* register-panel */
 import '@storybook/addon-notes/register'
 
@@ -9,4 +11,4 @@ import '@storybook/addon-knobs/register'
 
 import '@storybook/addon-storysource/register'
 
-import 'storybook-readme/register'
+
