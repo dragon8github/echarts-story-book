@@ -1,6 +1,3 @@
-<docs>
-    Docs inside vue module
-</docs>
 <template>
     <div class="BaseBar">
         <div id="main"></div>
@@ -88,3 +85,10 @@ export default {
     height: 400px;
 }
 </style>
+
+<docs>
+    Docs inside vue module
+    ```JavaScript
+    console.log(20190614092303, )
+    ```
+</docs>
